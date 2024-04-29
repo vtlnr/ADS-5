@@ -26,7 +26,7 @@ class TStack {
           return tIndex == size;
       }
       T& get() const {
-          return arr[tIndex]
+          return arr[tIndex];
       }
 };
 #endif  // INCLUDE_TSTACK_H_
